@@ -1,3 +1,5 @@
+package DAY1;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -14,7 +16,7 @@ public class Part2
 		calibrationSum = 0;
 		try
 		{
-			br = new BufferedReader(new FileReader("D:/Java projects/AOC2023/Day1/src/main/java/Input.txt"));
+			br = new BufferedReader(new FileReader("src/DAY1/Input.txt"));
 		}
 		catch (FileNotFoundException e)
 		{
